@@ -1,0 +1,120 @@
+.news {
+    &__title {
+        display: block;
+        width: 21rem;
+        margin: 0 auto;
+        margin-bottom: 1rem;
+        color: var(--, #1C1C1C);
+        font-family: Roboto;
+        font-size: 44px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        text-transform: uppercase;
+    }
+
+    &__subtitle {
+        width: 35rem;
+        display: block;
+        margin: 0 auto;
+        font-style: normal;
+        line-height: normal;
+
+        &_1 {
+            display: block;
+            color: #1C1C1C;
+            font-family: Roboto;
+            font-size: 24px;
+            text-transform: uppercase;
+            font-weight: 300;
+
+        }
+
+        &_2 {
+            color: #D4D4D4;
+            font-family: Millanova;
+            font-size: 52px;
+            font-weight: 400;
+        }
+    }
+
+    &__wrap {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin: 0 auto;
+        gap: 3.2rem;
+        width: 114rem;
+        margin: 0 auto;
+        margin-bottom: 14rem;
+    }
+
+    &__box {
+        display: block;
+        width: 256px;
+        height: 256px;
+        position: relative;
+
+        &_b {
+            display: block;
+            width: 554px;
+        }
+
+        &-title {
+            display: block;
+            width: 220px;
+            color: #fff;
+            font-family: Roboto;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+            text-transform: uppercase;
+            text-align: left;
+            position: absolute;
+            top: 16rem;
+            left: 2rem;
+
+            &_b {
+                position: absolute;
+                top: 16rem;
+                left: 30.3rem;
+            }
+        }
+    }
+
+    &__link {
+        display: block;
+        color: #FFF;
+        opacity: 0.6;
+        text-align: right;
+        text-decoration: none;
+        font-family: Roboto;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+        position: absolute;
+        top: 22rem;
+        left: 2rem;
+
+        &_b {
+            position: absolute;
+            top: 22rem;
+            left: 30.3rem;
+        }
+    }
+
+    &__img {
+        display: block;
+        width: 256px;
+        height: 256px;
+        border-radius: 30px;
+
+        &_b {
+            display: block;
+            width: 544px;
+        }
+    }
+}
